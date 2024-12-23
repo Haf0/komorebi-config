@@ -17,7 +17,7 @@
   },
   "transparancy_alpha" :2,
   "grouping": {
-    "kind": "Bar",
+    "kind": "Widget",
     "rounding": 5,
     "style":"DefaultWithShadowB0O1S3",
     "transparency_alpha": 255
