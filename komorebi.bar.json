@@ -1,0 +1,84 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.31/schema.bar.json",
+  "monitor": {
+    "index": 0,
+    "work_area_offset": {
+      "left": 0,
+      "top": 30,
+      "right": 0,
+      "bottom":20
+    }
+  },
+  "font_family": "JetBrains Mono",
+  "theme": {
+    "palette": "Catppuccin",
+    "name": "Mocha",
+    "accent": "Red"
+  },
+  "transparancy_alpha" :2,
+  "grouping": {
+    "kind": "Bar",
+    "rounding": 5,
+    "style":"DefaultWithShadowB0O1S3",
+    "transparency_alpha": 255
+
+  },
+  "left_widgets": [
+    {
+      "Komorebi": {
+        "workspaces": {
+          "enable": true,
+          "hide_empty_workspaces": false
+        },
+        "layout": {
+          "enable": true
+        },
+        "focused_window": {
+          "enable": false,
+          "show_icon": true
+        }
+      }
+    }
+  ],
+  "right_widgets": [
+    {
+      "Media": {
+        "enable": false
+      }
+    },
+    {
+      "Storage": {
+        "enable": false
+      }
+    },
+    {
+      "Memory": {
+        "enable": true
+      }
+    },
+    {
+      "Network": {
+        "enable": false,
+        "show_total_data_transmitted": false,
+        "show_network_activity": false
+      }
+    },
+    {
+      "Date": {
+        "enable": true,
+        "format": "DayDateMonthYear"
+      }
+    },
+    {
+      "Time": {
+        "enable": true,
+        "format": "TwentyFourHour"
+      }
+    },
+    {
+      "Battery": {
+        "enable": true
+      }
+    }
+  ]
+}
