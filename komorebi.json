@@ -11,10 +11,10 @@
   "window_container_behaviour": "Append",
   "transparency": true,
   "transparency_alpha": 230,
-  "ignore_rules": [
+  "transparency_ignore_rules": [
     {
       "kind": "Title",
-      "id": "Youtube",
+      "id": "YouTube",
       "matching_strategy": "Contains"
     }
   ],

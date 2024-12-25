@@ -20,8 +20,7 @@
     "kind": "Widget",
     "rounding": 5,
     "style":"DefaultWithShadowB0O1S3",
-    "transparency_alpha": 255
-
+    "transparency_alpha": 0
   },
   "left_widgets": [
     {
@@ -34,7 +33,7 @@
           "enable": true
         },
         "focused_window": {
-          "enable": false,
+          "enable": true,
           "show_icon": true
         }
       }
